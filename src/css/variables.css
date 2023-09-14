@@ -1,0 +1,13 @@
+:root {
+  --headings-text: 'Miracle', san-serif;
+  --light-color: #fffcf6;
+  --dark-text-color: #1b3b36;
+  --primary-color: #313f38;
+  --accent-color: #fcd043;
+  --errors-color: #b03e3e;
+  --attention-color: #dc9b39;
+  --success-color: #2a5b46;
+  --link-color: #1b3b36;
+  --link-hover-color: #455955;
+  
+}
