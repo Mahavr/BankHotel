@@ -86,3 +86,8 @@
   | 1920
   |============================
 */
+@media only screen and (min-width: 1920px) {
+  .logo {
+    margin-right: 438px;
+  }
+}
