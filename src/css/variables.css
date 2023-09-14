@@ -1,5 +1,5 @@
 :root {
-  --headings-text: 'Miracle', san-serif;
+  --headings-text: "Miracle", san-serif;
   --light-color: #fffcf6;
   --dark-text-color: #1b3b36;
   --primary-color: #313f38;
@@ -9,5 +9,5 @@
   --success-color: #2a5b46;
   --link-color: #1b3b36;
   --link-hover-color: #455955;
-  
+  --animation: 150ms cubic-bezier(.9,.22,.15,.62);
 }
