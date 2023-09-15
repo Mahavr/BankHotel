@@ -9,5 +9,6 @@
   --success-color: #2a5b46;
   --link-color: #1b3b36;
   --link-hover-color: #455955;
+  --light-transparent-color:rgb(255, 252, 246, 0.32);
   --animation: 150ms cubic-bezier(.9,.22,.15,.62);
 }
