@@ -7,5 +7,8 @@
 <path fill="#fffcf6" style="fill: var(--color1, #fffcf6)" d="M0.066 0h118.333v3.2h-118.333v-3.2z"></path>
 <path fill="#fffcf6" style="fill: var(--color1, #fffcf6)" d="M0.066 28.8h118.333v3.2h-118.333v-3.2z"></path>
 </symbol>
+<symbol id="icon-arrow" viewBox="0 0 57 32">
+<path fill="none" stroke="#fcd043"  style="stroke: var(--color1, #fcd043)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="7.1111" d="M54.167 3.556c0 0-7.259 1.748-13.482 6.994s-11.407 13.988-11.407 13.988-5.185-8.742-11.407-13.988c-6.222-5.245-13.481-6.994-13.481-6.994"></path>
+</symbol>
 </defs>
 </svg>

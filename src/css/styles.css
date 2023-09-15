@@ -14,3 +14,9 @@
 */
 @import url('./header.css');
 @import url('./footer.css');
+/*
+  |============================
+  | main-page
+  |============================
+*/
+@import url('./main-page/hero.css');

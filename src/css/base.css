@@ -5,6 +5,10 @@ body {
   line-height: 1.76;
   background-color: var(--light-color);
 }
+@font-face {
+  font-family: miracle;
+  src: url('../miracle.otf') format('opentype');
+}
 /*
   |============================
   | section and container
@@ -53,13 +57,21 @@ body {
   | text
   |============================
 */
+.accent-text {
+  color: var(--accent-color);
+}
+.light-text {
+  color: var(--light-color);
+}
+.dark-text {
+  color: var(--dark-text-color);
+}
 /* title */
 .title {
-  font-family: var(--headings-text);
+  font-family: miracle;
   font-size: 60px;
   text-transform: uppercase;
   line-height: 1;
-  color: var(--dark-text-color);
 }
 @media only screen and (min-width: 1024px) {
   .title {
@@ -81,15 +93,7 @@ body {
     line-height: 0.87;
   }
 }
-.accent-title {
-  color: var(--accent-color);
-}
-.title-span-light {
-  color: var(--light-color);
-}
-.title-span-dark {
-  color: var(--dark-text-color);
-}
+
 /* subtitle */
 .subtitle {
   font-size: 30px;
@@ -109,19 +113,12 @@ body {
     font-size: 50px;
   }
 }
-.light-subtitle {
-  color: var(--light-color);
-}
+
 /* text */
 .text {
   opacity: 0.8;
 }
-.light-text {
-  color: var(--light-color);
-}
-.dark-text {
-  color: var(--dark-text-color);
-}
+
 @media only screen and (min-width: 1024px) {
   .text {
     opacity: 0.64;
@@ -155,4 +152,57 @@ body {
 }
 .link:active {
   color: var(--accent-color);
+}
+/*
+  |============================
+  | buttons
+  |============================
+*/
+/* button octagon */
+
+.button-octagon {
+  transform: rotate(23deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 30%,
+    100% 70%,
+    70% 100%,
+    30% 100%,
+    0% 70%,
+    0% 30%
+  );
+  position: relative;
+  transition: background-color var(--animation);
+}
+.button-octagon:disabled {
+  opacity: 0.32;
+}
+.octagon {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 30%,
+    100% 70%,
+    70% 100%,
+    30% 100%,
+    0% 70%,
+    0% 30%
+  );
+}
+/* since */
+.since {
+  border: 1px solid;
+  border-radius: 99px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
 }
